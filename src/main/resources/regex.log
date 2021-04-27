@@ -1,0 +1,18 @@
+Apr 27, 2021 10:47:09 PM Menu initializeMenu
+FINE: 2021-04-27T22:47:09.786+02:00[Europe/Madrid]Inicio de log
+Apr 27, 2021 10:47:13 PM Menu initializeMenu
+FINE: Intento satisfactorio en la introdución del nombre de usuario.
+Apr 27, 2021 10:47:15 PM Menu initializeMenu
+FINE: Intento satisfactorio en la introdución de la password.
+Apr 27, 2021 10:47:23 PM Menu initializeMenu
+FINE: Intento erroneo de introducir mail nº1
+Apr 27, 2021 10:47:32 PM Menu initializeMenu
+FINE: Intento erroneo de introducir mail nº2
+Apr 27, 2021 10:47:32 PM Menu initializeMenu
+FINE: Intento satisfactorio en la introdución del email.
+Apr 27, 2021 10:47:36 PM Menu initializeMenu
+FINE: Intento satisfactorio en la introdución del nombre de archivo.
+Apr 27, 2021 10:47:36 PM Menu initializeMenu
+FINE: Creado el archivo contenedor de información.
+Apr 27, 2021 10:47:38 PM Menu initializeMenu
+FINE: Leido el archivo contenedor de información.
