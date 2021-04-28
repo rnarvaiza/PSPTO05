@@ -1,7 +1,6 @@
-import java.io.File;
+
 import java.io.IOException;
 import java.time.Instant;
-import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Scanner;
 import java.util.logging.FileHandler;
@@ -12,6 +11,7 @@ import java.util.logging.SimpleFormatter;
 public class Menu {
 
     public void initializeMenu(){
+
 
         String login = null;
         String password = null;
@@ -35,7 +35,7 @@ public class Menu {
 
             System.out.println("Sistema de validación de seguridad. Por favor, siga las instrucciones que le aparezcan en pantalla.");
 
-            logger.log(Level.FINE,
+            logger.log(Level.SEVERE,
                     String.valueOf(Instant.ofEpochMilli(System.currentTimeMillis()).atZone(ZoneId.of("Europe/Madrid"))) +
                             "Inicio de log");
             counter = 0;
@@ -105,6 +105,9 @@ public class Menu {
             else{
                 logger.log(Level.FINE, "ERROR: imposible leer el archivo contenedor de información.");
             }
+            logger.log(Level.SEVERE,
+                    String.valueOf(Instant.ofEpochMilli(System.currentTimeMillis()).atZone(ZoneId.of("Europe/Madrid"))) +
+                            "Fin de ejecución");
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -113,31 +116,5 @@ public class Menu {
                 fh.close();
             }
         }
-
-
-
-
-/*
-        try {
-            Utils.createFile("archivo.txt", "asdasd", "asdasfghfghfghd", "qweqweqweqw");
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-        }
-
- */
-        /*
-        String resume = null;
-        resume = Utils.leerFichero("asd.txt");
-        if(!resume.isEmpty()){
-            //logger.log(Level.FINE, "ERROR: imposible leer el archivo contenedor de información.");
-        }
-        else{
-            System.out.println(resume);
-            //logger.log(Level.FINE, "Leido el archivo contenedor de información.");
-        }
-
-         */
     }
-
-
 }

@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 
 public class Utils {
 
-    public static final String RESOURCES_PATH = "C:/Users/s0ck3/Documents/NetBeansProjects/PSPSeguridad/src/main/resources/";
+    public static final String RESOURCES_PATH = "src/main/resources/";
 
     /**
      * Solicita el nombre del usuario que va a utilizar la aplicación.
