@@ -1,0 +1,16 @@
+Apr 29, 2021 5:03:03 PM Menu initializeMenu
+SEVERE: 2021-04-29T17:03:03.887+02:00[Europe/Madrid]Inicio de log
+Apr 29, 2021 5:03:11 PM Menu initializeMenu
+FINE: Intento satisfactorio en la introdución del nombre de usuario.
+Apr 29, 2021 5:03:16 PM Menu initializeMenu
+FINE: Intento satisfactorio en la introdución de la password.
+Apr 29, 2021 5:03:19 PM Menu initializeMenu
+FINE: Intento satisfactorio en la introdución del email.
+Apr 29, 2021 5:03:24 PM Menu initializeMenu
+FINE: Intento satisfactorio en la introdución del nombre de archivo.
+Apr 29, 2021 5:03:24 PM Menu initializeMenu
+FINE: Creado el archivo contenedor de información.
+Apr 29, 2021 5:03:26 PM Menu initializeMenu
+FINE: Leido el archivo contenedor de información.
+Apr 29, 2021 5:03:26 PM Menu initializeMenu
+SEVERE: 2021-04-29T17:03:26.172+02:00[Europe/Madrid]Fin de ejecución

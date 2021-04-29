@@ -13,7 +13,7 @@ public class Utils {
      * @return
      */
     public static boolean loginValidator(String s){
-        return s.matches("([a-z]{8}[\\d]{2})");
+        return s.matches("([a-z]{8}(([\\d]|[\\W]){2}))");
     }
 
 
